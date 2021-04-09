@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smylmoreVMSD">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher2"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMYLmore">
+        <activity android:name="com.example.smylmoreVMSD.songs_layout"/>
+        <activity android:name="com.example.smylmoreVMSD.album_layout"
+            android:label="Albums"/>
+        <activity android:name="com.example.smylmoreVMSD.song"/>
+        <activity android:name="com.example.smylmoreVMSD.home"
+            android:label="Home"/>
+        <activity android:name="com.example.smylmoreVMSD.Romantic"
+            android:label="Romantic Songs"/>
+        <activity android:name="com.example.smylmoreVMSD.Motivational"
+            android:label="Motivational Songs"/>
+        <activity android:name="com.example.smylmoreVMSD.Devotional"
+            android:label="Devotional Songs"/>
+        <activity android:name="com.example.smylmoreVMSD.Vip"
+            android:label="VIP Special Songs"/>
+        <activity android:name="com.example.smylmoreVMSD.MSongPlaying"
+            android:label="Playing Motivational Song"/>
+        <activity android:name="com.example.smylmoreVMSD.DSongPlaying"
+            android:label="Playing Devotional Song"/>
+        <activity android:name="com.example.smylmoreVMSD.RSongPlaying"
+            android:label="Playing Romantic Song"/>
+        <activity android:name="com.example.smylmoreVMSD.VsongVideo"
+            android:label="Playing VIP Song"/>
+        <activity android:name="com.example.smylmoreVMSD.songVideo"
+            android:label="Youtube Video"/>
+        <activity android:name="com.example.smylmoreVMSD.MsongVideo"
+            android:label="Youtube Video"/>
+        <activity android:name="com.example.smylmoreVMSD.RsongVideo"
+            android:label="Youtube Video"/>
+        <activity android:name="com.example.smylmoreVMSD.SsongVideo"
+            android:label="Youtube Video"/>
+        <activity android:name="com.example.smylmoreVMSD.DsongVideo"
+            android:label="Youtube Video"/>
+        <activity android:name="com.example.smylmoreVMSD.VIPTestCase"
+            android:label="VIP Access Security Check"/>
+        <activity android:name="com.example.smylmoreVMSD.VSongPlaying"
+            android:label="Playing VIP Songs"/>
+        <activity android:name="com.example.smylmoreVMSD.MusicMainActivity"
+            android:label="Gallery Music Player"/>
+        <activity android:name="com.example.smylmoreVMSD.MainActivity"
+            android:label="SMYl@more Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

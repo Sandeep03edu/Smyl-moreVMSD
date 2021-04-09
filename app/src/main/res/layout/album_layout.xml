@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_album">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMYL@more"
+        android:layout_margin="16dp"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Albums"
+        android:layout_margin="16dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:src="@drawable/top"-->
+<!--            android:onClick="TOP"/>-->
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:layout_height="200dp"
+            android:src="@drawable/romantic"
+            android:onClick="romantic"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:onClick="motivational"
+            android:src="@drawable/motivational"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/devotional"
+            android:onClick="devotional"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="200dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/vip"
+            android:onClick="vip"/>
+    </LinearLayout>
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginBottom="10dp">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:layout_height="200dp"
+            android:src="@drawable/music_player"
+            android:onClick="musicPlayer"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

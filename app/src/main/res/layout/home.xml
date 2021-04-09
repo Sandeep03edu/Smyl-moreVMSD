@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="SMYl@more"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:padding="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:src="@drawable/musicimg"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:id="@+id/hindiLang"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Hindi"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:onClick="hindiLang"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/english"
+            android:text="English"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:onClick="disabled"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:id="@+id/latestSong"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Latest"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:onClick="latestSong"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Classic - Old"
+            android:id="@+id/classic"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_border"
+            android:onClick="disabled"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/submission"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_border"
+        android:text="Submit"
+        android:onClick="submission"/>
+
+</LinearLayout>
